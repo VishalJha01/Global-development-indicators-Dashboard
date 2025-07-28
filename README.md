@@ -1,65 +1,72 @@
 # 🌍 Global Development Indicators Dashboard
 
-![Dashboard Preview](https://github.com/VishalJha01/Global-development-indicators-Dashboard/blob/main/Screenshot%202025-07-26%20135838.png)
-
-A **Power BI dashboard** visualizing **1,000+ socio-economic, demographic, and environmental indicators** tracked across **200+ countries**, powered by **World Bank – World Development Indicators (WDI)** data.
+![Dashboard Screenshot](https://github.com/VishalJha01/Global-development-indicators-Dashboard/blob/main/Screenshot%202025-07-26%20135838.png)
 
 ---
 
-## 📌 Overview
+## 📖 Overview
 
-Are we truly developing as a world?
+Are we truly developing as a world?  
+With **1,000+ socio-economic, demographic, and environmental indicators tracked across 200+ countries**, understanding progress requires more than raw numbers — it needs clear, interactive storytelling.
 
-This interactive dashboard provides a clear and data-driven perspective on global development trends — from **GDP growth and life expectancy** to **unemployment, population, and energy access**.  
-It allows users to **compare nations, regions, and income groups over time** while highlighting leaders, laggards, and gaps in development.
-
-Built as part of my **BCA portfolio**, the project demonstrates how **credible datasets** can be transformed into **actionable, insightful, and visually compelling** stories using **Power BI**.
+This **Power BI dashboard** provides a comprehensive look at **global development trends**. Built entirely on the **World Bank’s World Development Indicators (WDI)** dataset, it enables users to explore key metrics that shape economies, populations, and the environment.
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- ✅ **Global KPIs**: GDP, population, death rate, life expectancy, and unemployment — dynamically calculated.
-- ✅ **Top Performers**: DAX-driven **Top 10 countries** for any indicator in the latest year.
-- ✅ **Historical Trends**: Line charts tracking the **Top 5 countries** over decades.
-- ✅ **Geographic Insights**: World map showing indicator distribution across **countries, regions, and income groups**.
-- ✅ **Income Group Analysis**: Donut chart visualizing population share by income classification.
-- ✅ **Interactive Slicers**: Drill down by **year, region, country, income group, or indicator**.
+- ✅ **Global KPIs:** Dynamic calculations of GDP, population, life expectancy, unemployment, and mortality rates  
+- ✅ **Top Performers:** DAX-driven **Top 10 countries** ranking for any indicator in the latest year  
+- ✅ **Historical Trends:** **Line charts** tracking the progress of **Top 5 countries** across decades  
+- ✅ **Geographic Distribution:** **Interactive world map** showing indicator variations by country or region  
+- ✅ **Income Group Analysis:** **Donut chart** depicting population share by income group  
+- ✅ **Fully Interactive Filters:** Slice by **year, region, country, income level, or indicator**
 
 ---
 
-## ⚙️ Tools & Techniques Used
+## 🛠 Tools & Techniques Used
 
-- **Power BI Desktop** – End-to-end dashboard design & visualization.
-- **Data Modeling & Transformation** – Building optimized relationships for smooth report performance.
-- **Power Query** – Robust data cleaning, transformation, and unification of multiple datasets.
-- **Advanced DAX Measures** – Context-aware KPIs, dynamic rankings, and custom logic:
-  - `CALCULATE()` – Dynamic context adjustments.
-  - `TOPN()` – Ranking countries by indicator.
-  - `SELECTEDVALUE()` – Context-sensitive titles and measures.
-  - `SWITCH(TRUE())` – Flexible indicator selection.
+- **Power BI Desktop** for end-to-end dashboard development  
+- **Data Modeling & Transformation** for optimized performance  
+- **Power Query** for robust data extraction, cleaning, and shaping  
+- **Advanced DAX Measures**, including:
+  - Dynamic ranking (`RANKX`)
+  - Context-aware KPIs (`CALCULATE`, `FILTER`, `DIVIDE`)
+  - Year-over-year calculations
+  - Dynamic titles for visuals
 
 ---
 
 ## 📊 Dataset
 
-- **Source:** [World Bank – World Development Indicators (WDI)](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)
-- **Coverage:** 1,000+ indicators, 200+ countries, spanning decades of **socio-economic, demographic, and environmental** data.
-- **Credibility:** Data from a **globally trusted institution** ensuring real-world relevance.
+All data is sourced from the **World Bank – World Development Indicators (WDI)**:  
+[🔗 Dataset Link](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)
+
+---
+
+## 📥 Download the Dashboard
+
+You can download the **PBIX file** here:  
+[![Download PBIX](https://img.shields.io/badge/Download-PBIX-blue?logo=powerbi)](https://drive.google.com/file/d/1VlK3Jr1Ys6tp2ruFklfLEU2kJxkOFlsR/view?usp=sharing)
+
+*(Note: File hosted on Google Drive due to GitHub’s 25 MB file size limit.)*
 
 ---
 
 ## 🎯 Primary Goals
 
-- **Identify global leaders and laggards** in GDP, life expectancy, education, and other indicators.
-- **Spot development gaps** where unemployment, death rates, and energy access remain challenges.
-- **Enable data-driven comparisons** by **income group, region, and country** across multiple years.
-- **Showcase data storytelling skills** through advanced **Power BI techniques** and real-world data.
+- Identify **countries leading in GDP, life expectancy, and education**  
+- Understand **regions still struggling with unemployment, mortality rates, and energy access**  
+- Compare **income groups and regions over time**  
+- Provide a **portfolio-ready project** showcasing strong Power BI, DAX, and data modeling expertise  
 
 ---
 
-## 🚀 Getting Started
+## 💬 Feedback
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/VishalJha01/Global-development-indicators-Dashboard.git
+I’d love your feedback, thoughts, and suggestions — let’s learn and grow together!
+
+---
+
+### 🔖 Hashtags
+`#PowerBI #DataAnalytics #BusinessIntelligence #DataVisualization #PowerBiProjects #WDI #DataStorytelling #GlobalDevelopment`
